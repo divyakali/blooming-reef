@@ -54,6 +54,13 @@ Links to screenshots of usage<br/>
 https://www.dropbox.com/s/jewa6wnvbmuu7pl/Screenshot%202016-09-18%2014.15.20.png?dl=0
 https://www.dropbox.com/s/hap8azi3t0kc369/Screenshot%202016-09-18%2014.19.27.png?dl=0
 
+##Local Setup:
+You need Tomcat and JDK 1.8 installed prior to setup.
+Checkout code > run ./gradlew clean build > cd build/libs> java -jar blooming-reef-0.0.1-SNAPSHOT.jar
+
+The above should run code on your local.
+Use http://localhost:9150/sentiment  from your browser.
+
 
 
 
